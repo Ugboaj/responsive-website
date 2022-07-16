@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.me{
+    text-align: center;
+}
+
+.hero{
+    background-color: #046325;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero .hero-text{
+    font-size: 2rem;
+}
+
+.about{
+    background-color: #929191;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about .about-text{
+    font-size: 2rem;
+}
+
+.contactus{
+    background-color: #046325;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contactus .contactus-text{
+    font-size: 2rem;
+}
+
+/*media query*/
+@media screen and (max-width: 400px) {
+    .hero{
+        background-color: #c4c4c4;
+    }
+    .hero-text{
+        color: black;
+        font-size: 1rem;
+    }
+
+    .about{
+        background-color: #046325;
+    }
+    .about-text{
+        color: black;
+        font-size: 1rem;
+    }
+
+    .contactus{
+        background: color #c4c4c4;
+    }
+    .contactus-text{
+        color: black;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .hero{
+        background-color: blue ;
+    }
+    .hero-text{
+        color: black;
+        font-size: 1rem;
+    }
+
+    .about{
+        background-color: #046325;
+    }
+    .about-text{
+        color: black;
+        font-size: 1rem;
+    }
+
+    .contactus{
+        background: color #c4c4c4;
+    }
+    .contactus-text{
+        color: black;
+        font-size: 1rem;
+    }
+}
